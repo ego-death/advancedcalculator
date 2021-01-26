@@ -29,6 +29,44 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+#mainBody{
+	margin: 50px auto;
+	height: 550px;
+	width: 30%;
+	border-radius: 50px;
+	background: black;
+	position: relative;
+}
+
+#insertNum{
+	position: absolute;
+	top: 90px;
+	left: 44px;
+	height: 100px;
+	width: 80%;
+	background: white;
+}
+
+#placeButtons{
+	position: absolute;
+	top: 250px;
+	left: 47px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button{
+	background: white;
+	color: black;
+	border: 3px solid black;
+	border-radius: 50%;
+	width: 88px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 40px;
+
+}
 header {
 
 }
@@ -37,6 +75,6 @@ footer {
 
 }
 
-/******************************************
+/*****************************************
 /* ADDITIONAL STYLES
 /*******************************************/
